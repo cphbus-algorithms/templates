@@ -6,7 +6,7 @@ public class Stopwatch implements AutoCloseable {
   @Override
   public void close() {
     millis = System.currentTimeMillis() - millis;
-    System.out.printf("Elapsed time: %5.2f\n", millis/1000.0);
+    System.out.printf("Elapsed time: %5.3fs\n", millis/1000.0);
     }
   
   }

@@ -24,14 +24,5 @@ public class Histogram {
   
   public void print(int[] list) { print(System.out, list); }
 
-  /**
-   * Usage example.
-   * @param args are not used
-   */
-  public static void main(String[] args) {
-    int[] list = new int[] {1, 2, 3, 1, 10, 11};
-    Histogram histogram = new Histogram(1);
-    histogram.print(list);
-    }
-  
+
   }
